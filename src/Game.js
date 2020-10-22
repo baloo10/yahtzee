@@ -151,7 +151,11 @@ class Game extends Component {
             </div>
           </section>
         </header>
-        <ScoreTable doScore={this.doScore} scores={scores} />
+
+        < main className="Game-Main"> 
+          <ScoreTable doScore={this.doScore} scores={scores} />
+        </main>
+        
       </div>
     );
   }

@@ -1,5 +1,10 @@
 .Dice {
   margin: 1em;
-  display: flex;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 480px) {
+  .Dice {
+      margin-bottom: 1rem;
+  }
 }
